@@ -21,7 +21,7 @@ import random, time
 def resource_path(relative_path):
   pass
 ```
-- This function help us to upload needed files for game.
+  &nbsp; &nbsp; &nbsp; &nbsp; This function help us to upload needed files for game.
 
 - Random and time is Standart Python library, that we need to gane algohrithm
 
