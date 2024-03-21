@@ -57,23 +57,23 @@ def score():
   pass
 ```
 
-- Function score is following player progress and display it on the screen.
+- Function score is following the player progress and display it on the screen.
 
 ```
 def game_over():
   pass
 ```
 
-- Function game_over needed to create the game_over screen, that will appear if snake is dead.
+- Function game_over creates the game_over screen that will appear if snake is dead.
 
-### Converting in .exe file
+### How to create .exe file?
 
-In file setyp.py, with help library cx_Freeze, we convert .exe file from snake.py, that will be created in main folder our project.
+In file setyp.py, with a help of the library cx_Freeze, we create .exe file from snake.py in main folder of the project.
 
 ```
 import cx_Freeze
 ```
 
-### How realized main algohrithm. 
+### How the main algohrithm is realized.
 
-I creates one Rect, this figure is snake. When the rect is collecting one apple, I fix the snake position and on the currently coordinates I create another one Rect, which I stop for a moment and then the new Rect will be follow previeous Rect list. With this algohrithm we change snake lenght
+Firstly we draw rectangle on the screen, this figure will represent our snake. Then when the rectangle (snake) collects an apple we fix the snake position and using current coordinates we create a new rectangle which stops for a moment and then this new reactangle will be following previeous rectangle list. With this algohrithm we change the snake lenght.
